@@ -1,0 +1,190 @@
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside,
+section {
+	display: block;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited,
+a:hover {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: sans-serif;
+	font-size: 10px;
+	color: #000;
+}
+/*--------------------------------*/
+
+body {
+	background-color: #ccc;
+	text-transform: uppercase;
+}
+
+select {
+	text-transform: uppercase;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	min-height: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.section {
+	margin: 1rem;
+}
+
+.title {
+	margin: 1rem;
+	font-size: 2rem;
+}
+
+/*-------------HEADER-------------------*/
+
+/* .header{} */
+
+/*---------------MAIN-----------------*/
+
+.main__form {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	padding: 1rem 0 0 0;
+}
+
+.part1 {
+	flex: 1 1 auto;
+}
+
+.profile {
+	margin: 1rem;
+	font-size: 2rem;
+}
+
+.profile__title {
+	text-align: center;
+}
+
+.profile__color {
+	font-size: 2rem;
+}
+
+.profile__type {
+	font-size: 2rem;
+}
+
+.part2 {
+	flex: 0 1 50%;
+}
+
+.dor-filling__title {
+	text-align: center;
+}
+
+.door-filling__body {
+	display: flex;
+}
+
+.door-filling__list {
+	flex: 0 1 50%;
+}
+
+.img__item {
+	width: 150px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+
+.add-element {
+	cursor: pointer;
+	border: none;
+}
+
+/*---------------FOOTER-----------------*/
+
+/* .footer {} */
+
+.footer__body {
+	max-width: 600px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	font-size: 1.2rem;
+	line-height: 3rem;
+}
+/* .footer__copy {
+}
+.footer__author {
+} */

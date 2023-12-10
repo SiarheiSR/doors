@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Doors</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<form class="main__form" action="#" method="get">
+				<div class="part1 part">
+					<section class="profile section">
+						<h2 class="profile__title title">Профиль</h2>
+						<select class="profile__color" name="profile-color" id="">
+							<option value="champagne">шампань</option>
+							<option value="silver">серебро</option>
+							<option value="gold">золото</option>
+							<option value="cognac">коньяк</option>
+						</select>
+						<select class="profile__type" name="profile-type" id="">
+							<option value="ms-110">закрытый</option>
+							<option value="ms-120">открытый</option>
+							<option value="ms-130">модус</option>
+							<option value="ms-150">H-профиль</option>
+							<option value="ms-161">MC-161</option>
+							<option value="ms-162">MC-162</option>
+							<option value="ms-163">MC-163</option>
+						</select>
+					</section>
+					<section class="doorway section">
+						<h2 class="doorway__title title">Проём</h2>
+					</section>
+					<section class="door-size section">
+						<h2 class="door-size__title title">Размеры двери</h2>
+						<!-- <label for="door-height">Высота</label> -->
+						<input type="tel" name="door-height" id="door-height" placeholder="Высота" maxlength="4" minlength="3"
+							required>
+						<!-- <label for="door-width">Ширина</label> -->
+						<input type="tel" name="door-width" id="door-width" placeholder="Ширина" maxlength="4" minlength="3"
+							required>
+						<input type="submit" value="Рассчитать">
+					</section>
+				</div>
+				<div class="part2 part">
+					<section class="door-filling section">
+						<h2 class="dor-filling__title title">Наполнение</h2>
+						<div class="door-filling__body">
+							<ul class="door-filling__list">
+								<li class="filling-list__item">2300x850</li>
+							</ul>
+							<ul class="door-filling-img__list">
+								<li class="img__item">
+									<select name="element-type" id="">
+										<option value="LCB">ДСП</option>
+										<option value="glass">стекло</option>
+									</select>
+								</li>
+								<li class=" img__item add-element">добавить элемент</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</form>
+		</main>
+		<footer class="footer">
+			<div class="footer__body">
+				<div class="footer__copy">2023 &copy;</div>
+				<div class="footer__author">ZGC by GNS</div>
+			</div>
+		</footer>
+	</div>
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
